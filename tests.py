@@ -1,4 +1,6 @@
-from bugprint import bp
+from bugprint import bp, bp_setup
+
+bp_setup(verbose=True)
 
 def add(x, y):
     print(f"Adding {x} + {y} = {x + y}")
