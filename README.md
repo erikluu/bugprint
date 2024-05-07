@@ -1,6 +1,6 @@
 # Bugprint Package
 
-You may call `bp_setup(verbose=True)` to bugger the print line up to 80 characters with "----...":
+You may call `bp_setup(verbose=True)` to buffer the printed message up 80 characters with `----...`:
 
 **Example Usage**
 
