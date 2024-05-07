@@ -1,5 +1,11 @@
 # Bugprint Package
 
+You may call to bugger the print line up to 80 characters with "----...":
+
+```python
+bp_setup(verbose=True)
+```
+
 **Example Usage**
 
 ```python
@@ -16,7 +22,7 @@ def subtract(x, y):
 # Call bp() at specific lines in your code
 bp()
 add(1, 2)
-bp()
+bp("Addition Complete")
 subtract(5, 4)
 bp()
 ```
@@ -24,11 +30,11 @@ bp()
 **Output**
 
 ```
-BP DEBUG: tests.py, line 12
+DEBUG: tests.py:14
 Adding 1 + 2 = 3
-BP DEBUG: tests.py, line 5
-BP DEBUG: tests.py, line 14
+DEBUG: tests.py:7
+DEBUG: tests.py:16 Addition Complete
 Subtracting 5 - 4 = 1
-BP DEBUG: tests.py, line 9
-BP DEBUG: tests.py, line 16
+DEBUG: tests.py:11
+DEBUG: tests.py:18
 ```

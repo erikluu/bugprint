@@ -21,7 +21,7 @@ setup(
     long_description=long_description,
     packages=find_packages(),
     install_requires=[''],
-    url="https://github.com/erikluu/bugprint"
+    url="https://github.com/erikluu/bugprint",
     license="MIT",
     keywords=['python', 'debug', 'print'],
     classifiers=[

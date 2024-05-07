@@ -1,1 +1,1 @@
-from .funcs import bp
+from .funcs import bp, bp_setup
