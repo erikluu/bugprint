@@ -1,5 +1,3 @@
-from debugger import bp
-
 def example_function():
     print("Inside example_function")
     bp()
