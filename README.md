@@ -1,10 +1,6 @@
 # Bugprint Package
 
-You may call to bugger the print line up to 80 characters with "----...":
-
-```python
-bp_setup(verbose=True)
-```
+You may call `bp_setup(verbose=True)` to bugger the print line up to 80 characters with "----...":
 
 **Example Usage**
 
