@@ -1,1 +1,1 @@
-from .bugprint import bp
+from .funcs import bp
